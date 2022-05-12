@@ -11,7 +11,6 @@ header{
 /*COMMON*/
 .container{
     max-width: 1170px;
-    background-color: red;
     margin: 0 auto;
     height: 100%;
     display: flex;
@@ -21,8 +20,49 @@ header{
 .padding-container{
     padding: 0 2rem;
 }
+/*HEADER*/
 .icon{
     display: none;
+}
+/*MAIN*/
+.container-col{
+    
+}
+.col{
+    border: 1px solid red;
+    background-color: lightblue;
+    margin-top: 1rem;
+}
+.info{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+/*TABLET*/
+@media screen and (min-width:768px){
+    .container-col{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col{
+        width: calc((100%/3) - 1rem);
+    }
+    .col:first-child{
+        width: calc((100%/3)*2 - 0.5rem);
+        margin-right: 1.5rem;
+    }
+    .col:nth-child(4){
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-top: 1rem;
+    }
+    .col:nth-child(3){
+        margin-top: 1rem;
+    }
+    .col:nth-child(5){
+        margin-top: 1rem;
+    }
+    
+    
 }
 /*DISPLAY*/ 
 @media screen and (max-width:997px) {
