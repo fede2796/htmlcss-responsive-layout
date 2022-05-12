@@ -56,6 +56,40 @@ h2, h3, p{
     background-color: violet;
     padding: 1 rem 0;
 }
+.us .container-col{
+    padding: 1rem 0;
+}
+.try h5, h4 {
+    text-align: center;
+}
+.try .bottone{
+    text-align: center;
+}
+.try h2, h3{
+    padding: 0;
+    background-color: red;
+}
+.try{
+    padding: 1rem 0;
+    background-color: red;
+}
+/*FOOTER*/
+footer{
+    height: 100px;
+    background-color: black;
+}
+
+.footcont {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+}
+.footcont h3{
+    color: white;
+    background-color: black;
+    margin-bottom: 1rem;
+}
+
 /*TABLET*/
 @media screen and (min-width:768px){
     .container-col{
@@ -91,6 +125,7 @@ h2, h3, p{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        
     }
     .benefits .col{
         width: calc(100%/3);
