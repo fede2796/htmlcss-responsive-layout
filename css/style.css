@@ -21,13 +21,10 @@ header{
     padding: 0 2rem;
 }
 /*HEADER*/
-.icon{
+.list{
     display: none;
 }
 /*MAIN*/
-.container-col{
-    
-}
 .col{
     border: 1px solid red;
     background-color: lightblue;
@@ -36,6 +33,19 @@ header{
 .info{
     padding-top: 2rem;
     padding-bottom: 3rem;
+}
+.strategy{
+    background-color: violet;
+    padding-bottom: 1rem;
+}
+.testimonial .col{
+    background-color: purple;
+}
+
+h2, h3, p{
+    text-align: center;
+    background-color: white;
+    padding: 1rem 0;
 }
 /*TABLET*/
 @media screen and (min-width:768px){
@@ -61,16 +71,27 @@ header{
     .col:nth-child(5){
         margin-top: 1rem;
     }
-    
+    .testimonial .container-col{
+        flex-direction: column;
+        
+    }
+    .testimonial .col{
+        width: 100%;
+    }
     
 }
 /*DISPLAY*/ 
-@media screen and (max-width:997px) {
-    .icon{
+@media screen and (min-width:997px) {
+    .list{
         display: block;
     }
-    .list{
+    .icon{
         display: none;
     }
-    
+    .strategy .container{
+        padding: 0 3rem;
+    }
+    .testimonial .col{
+        
+    }
 }
