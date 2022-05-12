@@ -114,13 +114,12 @@ h2, h3, p{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        
     }
     .benefits .col{
         width: calc(100%/4);
         margin: 2rem 2rem;
     }
-    .benefits .container{
-       
-    }
+   
     
 }
