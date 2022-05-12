@@ -96,15 +96,20 @@ h2, h3, p{
         width: calc(100%/3);
         margin: 1rem;
     }
-    .us.container-col{
+    .us .container-col{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 1rem;
     }
     .us .col{
-        width: calc(100%/2);
-        margin: 0;
+        width: 50%;
+        margin:0;
+        justify-content: space-between;
+        
     }
+  
     
 }
 /*DISPLAY*/ 
