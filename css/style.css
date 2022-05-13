@@ -259,6 +259,36 @@ h2, h3, p{
 .us .container-col{
     padding: 1rem 0;
 }
+.us .col{
+    background-color: white;
+}
+.us .col .portfolio{
+    margin-left: 0;
+}
+.us .textaboutus p{
+    text-align: left;
+}
+.us .textaboutus h2{
+    text-align: left;
+}
+.us .col h3{
+    background-color: white;
+    text-align: left;
+    color: violet;
+    margin-top: 2rem;
+}
+.us .col .button{
+    background-color: violet;
+    margin-top: 2rem;
+    margin-left: 0;
+    width: 200px;
+}
+.us .col .button a{
+    color: white;
+}
+.us .col .button i{
+    color: white;
+}
 
 /*TRY*/
 .try h5, h4 {
@@ -390,7 +420,13 @@ footer{
     .testimonial  .description span {
         margin-right: 50px;
     }
-    
+    .us .col:nth-child(2){
+        padding-left: 4rem;
+    }
+    .us .col h3{
+        font-size: 15px;
+        width: 40%;
+    }
 }
 /*DISPLAY*/ 
 @media screen and (min-width:997px) {
@@ -455,7 +491,14 @@ footer{
        display: flex;
        flex-wrap: nowrap;
     }
-   
+    .stimg{
+        padding-top:100px;
+        
+    }
+    .stimg img{
+        margin-bottom: 200px;
+        
+    }
    .stimg2{
         padding-top: 300px;
         padding-right: 200px;  
@@ -464,6 +507,9 @@ footer{
         background-color: white;
         
         border-radius: 20px;
+   }
+   .stimg2 img{
+       margin-bottom: 20px;
    }
    .stimg2 h2{
        background-color: white;
@@ -487,4 +533,15 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
-}
+    .us .col:first-child{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .us .col h3{
+        font-size: 15px;
+        width: 40%;
+    }
+    .us .col:nth-child(2){
+        padding-left: 4rem;
+    }
+}   
