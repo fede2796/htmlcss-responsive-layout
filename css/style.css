@@ -225,6 +225,35 @@ h2, h3, p{
     background-color: violet;
     padding: 1 rem 0;
 }
+.benefits .col{
+    background-color: white;
+    padding-bottom: 2rem;
+}
+.benefits .col h2{
+    text-align: left;
+    color: lightpink;
+    background-color: white;
+    margin-left: 1rem;
+}
+.benefits .col h3{
+    text-align: left;
+    color: lightpink;
+    background-color: white;
+    margin-left: 1rem;
+}
+.benefits .col p{
+    text-align: left;
+    color: violet;
+    margin-left: 1rem;
+}
+.benefits .col .button{
+    background-color: violet;
+    width: 120px;
+}
+.benefits .col .button a{
+    color: white;
+    padding-right: 0.5rem;
+}
 
 /*About Us*/
 .us .container-col{
@@ -453,5 +482,9 @@ footer{
     .testimonial .description{
         width: 90%;
         margin-top: 2rem;
+    }
+    .benefits .col:first-child{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
