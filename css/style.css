@@ -299,13 +299,35 @@ h2, h3, p{
 }
 .try h2, h3{
     padding: 0;
-    background-color: red;
+    padding-top: 1rem;
+    background-color: violet;
 }
 .try{
     padding: 1rem 0;
-    background-color: red;
+    background-color: violet;
 }
-
+.try h4{
+    padding-top: 1rem;
+    font-size: 10px;
+    padding-bottom: 1rem;
+}
+.try .button{
+    margin: 0 auto;
+    width: 200px;
+    padding-left: 3.5rem;
+}
+.try h4 a{
+    color: white;
+}
+#beta{
+    padding-top: 1rem;
+    font-size: 10px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#free{
+    color: yellow;
+}
 /*FOOTER*/
 footer{
     height: 100px;
@@ -427,6 +449,18 @@ footer{
         font-size: 15px;
         width: 40%;
     }
+    .try .button{
+        margin: 0 auto;
+       
+        width: 200px;
+        padding-left: 3.5rem;
+    }
+    #beta{
+        padding-top: 1rem;
+        font-size: 10px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
 }
 /*DISPLAY*/ 
 @media screen and (min-width:997px) {
@@ -544,4 +578,15 @@ footer{
     .us .col:nth-child(2){
         padding-left: 4rem;
     }
-}   
+   .try .button{
+    margin: 0 auto;
+    width: 200px;
+    padding-left: 3.5rem;
+    }
+    #beta{
+    padding-top: 1rem;
+    font-size: 10px;
+    padding-left: 400px;
+    padding-right: 400px;
+    }
+}
