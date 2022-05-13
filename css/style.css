@@ -344,6 +344,13 @@ footer{
     background-color: black;
     margin-bottom: 1rem;
 }
+.footcont h4{
+    color: white;
+    background-color: black;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
 
 /*TABLET*/
 @media screen and (min-width:768px){
@@ -535,7 +542,8 @@ footer{
     }
    .stimg2{
         padding-top: 300px;
-        padding-right: 200px;  
+        padding-right: 200px;
+        
    }
    .stimg2 .img-col{
         background-color: white;
@@ -544,6 +552,7 @@ footer{
    }
    .stimg2 img{
        margin-bottom: 20px;
+      align-items: left;
    }
    .stimg2 h2{
        background-color: white;
