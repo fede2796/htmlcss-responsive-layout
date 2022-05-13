@@ -26,24 +26,6 @@ header{
 .list{
     display: none;
 }
-/*MAIN*/
-.col{
-    border: none;
-    background-color:#B5DDFF;
-    margin-top: 1rem;
-    border-radius: 10px;
-}
-.info{
-    padding-top: 2rem;
-    padding-bottom: 3rem;
-}
-.icon i{
-    color: white;
-}
-li a{
-    color: white;
-    text-decoration: none;
-}
 .button{
     height: 50px;
     width: 100px;
@@ -57,10 +39,99 @@ li a{
     color: black;
     text-decoration: none;
 }
+/*MAIN*/
+
+/*INFO*/
+.col{
+    border: none;
+    background-color:#B5DDFF;
+    margin-top: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+.info{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.icon i{
+    color: white;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.img-col{
+    padding-top: 2rem;
+}
+.img-col img{
+    height: 300px;
+    width: 250px;
+    align-items: center;
+    margin-bottom: -0.2rem;
+}
+.text span{
+    text-align: start;
+    font-size: 20px;
+    color: blue;
+    width: 100%;
+}
+.text p{
+    background-color: #B5DDFF;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 25px;
+}
+.text h3{
+    padding-left: 1rem;
+    text-align: left;
+    background-color: #B5DDFF;
+    padding-top: 1rem;
+    color: #0084fd;
+}
+.blue-btn{
+    width: 200px;
+    height: 40px;
+    background-color: #0084fd;
+    padding-top: 0.7rem;
+}
+.blue-btn i{
+    color: white;
+    margin-right: 5px;
+   
+}
+.blue-btn a{
+    color: white;
+    margin-left: 8px;
+   ;
+}
+.application{
+    padding-bottom: 1rem;
+}
+.application i {
+    color:#0084fd;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.application h3{
+    background-color: #B5DDFF;
+    color: #0084fd;
+    padding-bottom: 1rem;
+}
+.application p{
+    background-color: #B5DDFF;
+    color: #0084fd;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 25px;
+}
+/*Strategy*/
 .strategy, .benefits{
     background-color: violet;
     padding-bottom: 1rem;
 }
+
+/*Testimonial*/
 .testimonial{
     padding-bottom: 2rem ;
 }
@@ -68,6 +139,7 @@ li a{
     background-color: purple;
 }
 
+/*Benefits*/
 h2, h3, p{
     text-align: center;
     background-color: white;
@@ -79,9 +151,13 @@ h2, h3, p{
     background-color: violet;
     padding: 1 rem 0;
 }
+
+/*About Us*/
 .us .container-col{
     padding: 1rem 0;
 }
+
+/*TRY*/
 .try h5, h4 {
     text-align: center;
 }
@@ -96,6 +172,7 @@ h2, h3, p{
     padding: 1rem 0;
     background-color: red;
 }
+
 /*FOOTER*/
 footer{
     height: 100px;
@@ -167,7 +244,14 @@ footer{
         justify-content: space-between;
         
     }
-  
+    .img-col img{
+        justify-content: start;
+        display: flex;
+        margin-bottom: 0;
+    }
+    .application{
+        padding-top: 1rem;
+    }
     
 }
 /*DISPLAY*/ 
@@ -201,5 +285,29 @@ footer{
     }
     .list{
         display: flex;
+    }
+    .col:first-child{
+        display: flex;
+        
+    }
+    .img-col{
+        padding-left: 4rem;
+    }
+    .img-col img{
+        height: 300px;
+        margin-bottom: 0rem;
+    }
+    .text{
+       
+        width: 50%;
+    }
+    .text h3{
+        padding-top: 1rem;
+    }
+    .text p{
+        padding-top: 2rem;
+    }
+    .blue-btn{
+        margin-top: 2rem;
     }
 }
